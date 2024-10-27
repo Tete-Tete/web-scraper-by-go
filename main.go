@@ -100,4 +100,8 @@ func main() {
 	elapsedTime := endTime.Sub(startTime)
 	fmt.Printf("Time for this file to proceed by using go : %s\n", elapsedTime)
 
+	// Wait for user input to keep window open // 等待用户输入以保持窗口打开
+	fmt.Println("Press 'Enter' to exit...")
+	fmt.Scanln()
+
 }
